@@ -32,5 +32,6 @@ npm run preview
 
 ## Notes
 
-Grade boundaries (marks to grade) are not assumed. Only the grade-point
-mapping (O=10, A+=9, A=8, B+=7, B=6) is included.
+The editable default grade boundaries are O=90, A+=80, A=70, B+=60, and B=50.
+Marks below the B boundary receive FF. The grade-point mapping is O=10, A+=9,
+A=8, B+=7, and B=6.

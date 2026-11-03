@@ -31,14 +31,14 @@ export function resolveSubjects(subjects, electiveId) {
 // ---- Grading (Phase 3) ----
 
 // Editable default grade boundaries: the minimum percentage needed for each
-// grade, taken from the MIT-WPU grade table (O 90+, A+ 70+, A 60+, B+ 55+,
-// B 50+). Everything below the B boundary is awarded FF. The app lets students
-// edit these; engine code only reads them.
+// grade (O 90+, A+ 80+, A 70+, B+ 60+, B 50+). Everything below the B
+// boundary is awarded FF. The app lets students edit these; engine code only
+// reads them.
 export const DEFAULT_GRADE_BOUNDARIES = {
   O: 90,
-  "A+": 70,
-  A: 60,
-  "B+": 55,
+  "A+": 80,
+  A: 70,
+  "B+": 60,
   B: 50,
 };
 
